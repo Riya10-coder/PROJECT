@@ -1,0 +1,103 @@
+li, div{
+	color: red;
+}
+.nav{
+	background:black;
+}
+.items{
+	background: black;
+	list-style: none;
+	height: 30px;
+	word-spacing: 30px;	
+	margin:50px;
+	padding: 50px;
+
+}
+.item{
+	display: inline;
+	
+	/*background: pink;*/
+
+
+}
+.class{
+	border-style: solid;
+	border-top: double;
+	border-color: blue;
+	border-width: 5px;
+	border: 2px solid red;
+	border-radius: 14px;
+	margin: 12px, 45px, 6px, 2px;
+	margin: 50px;
+	width: 50%;
+	height: 555px;
+	padding: 50px;
+	outline: 4px double black;
+	color: grey;
+	text-align: center;
+	font-style: italic;
+	font-family: sans-serif;
+	text-shadow: black;
+	
+}
+a{
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: white;
+	margin: 0, 16px;
+	font-size: 1.25vw;
+}
+a:hover{
+	background-color: black;
+	color: yellow;
+	font-size: 2.5em;
+
+
+}
+.container{
+	height:50%px;
+	width: 100%;
+	padding: 4px;
+	border: 3px solid black;
+	box-sizing: border-box;
+}
+.first{
+	background: pink;
+	height: 45px;
+	width: 30%;
+	display: inline-block;
+	float: right;
+}
+.second{
+	background: green;
+	height: 45px;
+	width: 30%;
+	display: inline-block;
+
+}
+.myflex{
+	background: black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 150px;
+	align-items: baseline;
+
+}
+.myflex> div
+{
+	background: blue;
+	width: 80px;
+	font-size: 20px;
+	margin: 8px;
+	height: 80px;
+}
+body{
+	/*background-image: url(images/images.png);*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: right top;*/
+	/*background-attachment: fixed*/
+	background: aqua ;
+}
