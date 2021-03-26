@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>object method()</title>
+</head>
+<body>
+<script type="text/javascript" >
+	//object literal
+	employee={id:1234, name: "riya"	}
+	document.write(employee.id+" " +employee.name+"<br/>");
+	
+	//instance method
+	var emp = new Object();
+	emp.id= 456;
+	emp.name="eknkef";
+	document.write( emp.id+" " +emp.name+"<br/>");
+//constructor
+function empp(id, name){
+	this.id= id;
+	this.name = name;
+}
+em = new empp(9088, "jfhgkj");
+	document.write( em.id+" " +em.name+"<br/>");
+	//geter
+	var person ={
+	name : "jn",
+	age: 3,
+	emid: 47550,
+	get id( ) {
+	return this.name
+	}
+	set ids(value){
+		this.emid=value;
+	}
+
+};
+person.ids=405;
+document.write( person.name);
+document.write( person.emid);
+	//geter
+
+</script>
+</body>
+</html>
